@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Lucky Numbers 1.1.0</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+
+			<nav>
+				<ul>
+					<li><a href="#instruction">Rules</a></li>
+					<li><a href="#about">Settings</a></li>
+					<!-- <li><a href="#contact">Contact</a></li> -->
+					<li><a href="#elements">Results</a></li>
+				</ul>
+			</nav>
+
+			<div class="logo">
+				<!-- <span class="icon fa-gem"></span> -->
+				<span class="points">--</span>
+			</div>
+
+			<div class="content">
+				<div class="inner">
+					<h1 class="heading">Lucky Numbers</h1>
+					<p id="feedback" class="feedback">Enter any 6 numbers from 1 to 45 to play</p>
+					<div class="view" id="view">
+						<div class="hide lucky-number"></div>
+						<div class="hide lucky-number"></div>
+						<div class="hide lucky-number"></div>
+						<div class="hide lucky-number"></div>
+						<div class="hide lucky-number"></div>
+						<div class="hide lucky-number"></div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+
+		<br>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Work -->
+			<article id="instruction">
+				<h2 class="major">RULES</h2>
+				<p class="instruction">Enter any 6 numbers from 1 to 45 to play</p>
+			</article>
+
+			<!-- About -->
+			<article id="about">
+				<h2 class="major">Game Settings</h2>
+				<section>
+					<!-- <h3 class="major">Form</h3> -->
+					<form class="settings" method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="demo-category">Draw Range</label>
+								<select class="range" name="demo-category" id="demo-category">
+									<option>100</option>
+									<option>70</option>
+									<option>50</option>
+									<option selected>45</option>
+									<option>30</option>
+									<option>20</option>
+								</select>
+							</div>
+							<!-- <div class="field half">
+								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+								<label for="demo-priority-low">Low</label>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<label for="demo-priority-high">High</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-copy" name="demo-copy">
+								<label for="demo-copy">Email me a copy</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-human" name="demo-human" checked>
+								<label for="demo-human">Not a robot</label>
+							</div> -->
+						</div>
+
+					</form>
+				</section>
+			</article>
+
+			<!-- Contact -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="primary" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+			</article>
+
+			<!-- Elements -->
+			<article id="elements">
+
+				<section>
+					<h2 class="major">RESULTS</h2>
+					<h3>Default</h3>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+
+					<h4>Alternate</h4>
+					<div class="table-wrapper">
+						<table class="alt">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+
+				<section>
+					<h3 class="major">Buttons</h3>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Primary</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button">Default</a></li>
+						<li><a href="#" class="button small">Small</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+						<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+					</ul>
+					<ul class="actions">
+						<li><span class="button primary disabled">Disabled</span></li>
+						<li><span class="button disabled">Disabled</span></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3 class="major">Form</h3>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="demo-name">Name</label>
+								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+							</div>
+							<div class="field half">
+								<label for="demo-email">Email</label>
+								<input type="email" name="demo-email" id="demo-email" value=""
+									placeholder="jane@untitled.tld" />
+							</div>
+							<div class="field">
+								<label for="demo-category">Category</label>
+								<select name="demo-category" id="demo-category">
+									<option value="">-</option>
+									<option value="1">Manufacturing</option>
+									<option value="1">Shipping</option>
+									<option value="1">Administration</option>
+									<option value="1">Human Resources</option>
+								</select>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+								<label for="demo-priority-low">Low</label>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<label for="demo-priority-high">High</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-copy" name="demo-copy">
+								<label for="demo-copy">Email me a copy</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-human" name="demo-human" checked>
+								<label for="demo-human">Not a robot</label>
+							</div>
+							<div class="field">
+								<label for="demo-message">Message</label>
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
+									rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+				</section>
+
+			</article>
+
+		</div>
+
+		<!-- Control Panel -->
+
+		<form class="form" id="form" method="post" action="">
+			<div class="fields">
+				<div id="input" class="field input">
+					<label for="number">Number</label>
+					<input type="number" autofocus name="number" id="number" placeholder="enter number" required />
+				</div>
+			</div>
+
+			<ul class="actions">
+				<li><input type="button" value="Play" class="play primary" /></li>
+				<li><input type="reset" class="reset" value="Reset" /></li>
+			</ul>
+		</form>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">Lucky Numbers 1.1.0 &copy;2020 Gary ISLAND LLC <a href="#contact">garyisland.com</a>.
+			</p>
+		</footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="js/app.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
